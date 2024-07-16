@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  ml-mock:
+    image: wiremock/wiremock
+    container_name: ml-mock-service
+    volumes:
+      - ./local-setup:/home/wiremock
+    ports:
+      - 9999:8080
+
+

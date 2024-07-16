@@ -1,0 +1,13 @@
+[package]
+name = "web-hook-ml"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+chrono = {version = "0.4.38", features = ["serde"]}
+rocket = { version = "0.5.1", features = ["json"] }
+serde = { version = "1.0", features = ["derive"] }
+reqwest = { version = "0.12", features = ["json"] }
+tokio = { version = "1", features = ["full"] }
+openssl = { version = "0.10", features = ["vendored"] }
+dotenv = "0.15.0"

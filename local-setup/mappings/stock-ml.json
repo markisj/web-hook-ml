@@ -1,0 +1,26 @@
+{
+    "request": {
+        "method": "GET",
+        "urlPathPattern": "/user-products/MLAU12345678/stock"
+    },
+    "response": {
+        "status": 200,
+        "jsonBody": {
+            "locations": [
+                {
+                    "type": "meli_facility",
+                    "quantity": 5
+                },
+                {
+                    "type": "selling_address",
+                    "quantity": 9
+                }
+            ],
+            "id": "MLAU12345678",
+            "user_id": 1376088286
+        },
+        "headers": {
+            "Content-Type": "application/json"
+        }
+    }
+}
